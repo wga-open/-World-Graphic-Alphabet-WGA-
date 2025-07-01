@@ -68,7 +68,7 @@ Advanced Users: Use the "X%" button to mask the lower half of the text, shifting
 The WGA project is crucial for human peace and development and urgently requires global collaboration. We invite enthusiasts in the following areas:
 
 ### 1. program development
- ① Optimize WGA Reader: Enhance parsing speed, accuracy, UX. \[Requirements Doc #\] \[Code Repo #\]
+ ① Optimize WGA Reader: Enhance parsing speed, accuracy, UX. [link](doc/图母阅读器修改需求.md)
 ② Develop WGA Platform & Input Methods (Keyboard/Touch). \[Requirements Doc #\]
 ③ Build Browser Extensions for web page WGA display (Next Phase).
 ④ Explore 2D layout (Discussion Stage)
