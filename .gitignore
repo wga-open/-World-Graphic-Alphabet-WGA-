@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 __pycache__/
+*.log
 .idea/
-=======
-<<<<<<< HEAD
-__pycache__/
-.idea/
-=======
-./.idea/
->>>>>>> upstream/main
->>>>>>> upstream/main
+logs/
+build/
+dist/

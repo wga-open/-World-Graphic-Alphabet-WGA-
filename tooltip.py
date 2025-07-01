@@ -2,8 +2,6 @@
 import logging
 import tkinter as tk
 
-from Baidu_Text_transAPI import createRequest
-from ui_manager import UIManager
 
 class Tooltip:
     def __init__(self, widget, text, position='below'):
