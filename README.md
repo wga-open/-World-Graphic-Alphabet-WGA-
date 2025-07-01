@@ -7,7 +7,7 @@ WGA is a graphic symbol system designed globally. It enables cross - language co
 WGA has 600+. Each corresponds to a basic meaning; other meanings are expressed through combinations of multiple WGAs. For example:
 *  Platform+Sleep → Bed   (core word on the left)
 *  Grass+close+bug → Flytrap  (Even for region-specific plant, global users instantly grasp its category (grass) and key trait (traps bugs)).
-![1.png](./src/1.png)
+![1.png](./src/Example of WGA Group Words.png)
 
 
 The WGA reader intelligently matches WGAs above the text, allowing annotations to be viewed via mouse. Without prior learning, it can achieve bidirectional auxiliary understanding of text and WGAs. Applicable to:
@@ -15,7 +15,7 @@ The WGA reader intelligently matches WGAs above the text, allowing annotations t
 * Reading ancient texts and technical terms
 * Children's literacy
 * Communication for the hearing impaired
-![2.png](./src/2.png)
+![2.png](./src/text and WGAs display side - by - side.png)
 
 ## Core Advantage 1: Flexibility and Freedom
 Graphics offer immense variability, ensuring high flexibility
@@ -24,7 +24,7 @@ Unlike language pronunciation, WGA shape don't restrict each other. So anyone's 
 2. Flexible layout
 * Text-aligned layout (implemented): see WGA reader. 
 * 2D layout (In Development): Logic-based layout breaks word order constraints, enabling instant page perception and parallel thinking.
-![3.png](./src/3.png)
+![3.png](./src/2D Layout Example.png)
 
 ## Core Advantage 2: Simple and Efficient 
 Semantic decomposition makes WGAs concise, universal, abstract, and unambiguous.
@@ -35,10 +35,10 @@ even for unfamiliar words, you can understand their categories and main characte
 3. Concise & Memorable
 With only 600+, the shape can be simplified. 
 ① Easy to identify: small shape, faster reading
-![4.png](./src/4.png)
+![4.png](./src/Comparison between the original image and WGA.png)
 ② Associative memory: Thanks to its simple shape, WGAs of the same type are more similar.
-![5.png](./src/5.png)
-![6.png](./src/6.png)
+![5.png](./src/WGA Relevance Example 1.png)
+![6.png](./src/WGA Relevance Example 2.png)
 
 4. Simple & Fast Input
 Input via categorized WGA search. Operable even by children. Average keystrokes < 20% of typing English.
