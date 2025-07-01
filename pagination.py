@@ -1,19 +1,10 @@
 import logging
-import time
 import tkinter as tk
 from tkinter import ttk
 
 from Baidu_Text_transAPI import createRequest
 from ui_manager import UIManager
 from tooltip import Tooltip
-logging.basicConfig(
-    level=logging.DEBUG,  # 调整日志级别为 INFO
-    format='[%(asctime)s] [%(filename)s:%(lineno)d] [%(levelname)s] %(message)s',
-    handlers=[
-        logging.FileHandler('tm_operation.log'),
-        logging.StreamHandler()
-    ]
-)
 
 
 

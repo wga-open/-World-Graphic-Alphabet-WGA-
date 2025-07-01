@@ -53,8 +53,94 @@ Graphic input grows ever easier. In the future, sensors will capture changes in 
 ① Global Success: Arabic numerals, punctuation, road signs, and icons transcend language barriers, boosting global communication and cognitive efficiency.
 ② Partial Success: Slightly graphic Chinese characters facilitate cross-language use. Printing/computing mitigated their "difficulty to write," enhancing efficiency.
 Among the 117 most populous regions, the top six growth rates of GDP per capita (1960 - 2021) are Korea (used pre - 1980s), Taiwan, Singapore, China, Hong Kong, and Japan. These regions all use Chinese characters.
-##Quick Start: Using WGA Reader
-Installation steps……
+
+Here's the English translation of your document in Markdown format:
+
+
+## Technical Architecture
+
+### Core Components
+
+1. **UI Manager (`ui_manager.py`)**
+   - Handles all interface-related functions
+   - Manages language switching
+   - Creates and maintains application windows
+   - Implements responsive layouts
+
+2. **Text Processor (`deepseek_module.py`)**
+   - Integrates DeepSeek AI for text analysis
+   - Handles text chunking and processing
+   - Manages API communication and response parsing
+
+3. **Data Processor (`data_processor.py`)**
+   - Processes and analyzes text tokens
+   - Manages word segmentation
+   - Handles lexicon matching and optimization
+
+4. **Image Loader (`image_loader.py`)**
+   - Manages image loading and caching
+   - Handles image resizing and optimization
+   - Provides image-to-text associations
+
+5. **Translation Service (`Baidu_Text_transAPI.py`)**
+   - Integrates Baidu Translate API
+   - Handles multilingual translation
+   - Manages API authentication and requests
+
+6. **Lexicon Manager (`lexicon_manager.py`)**
+   - Manages vocabulary database
+   - Handles word-image associations
+   - Optimizes lexicon loading and caching
+
+7. **Pagination Manager (`pagination.py`)**
+   - Handles content pagination
+   - Manages page rendering
+   - Implements scrolling functionality
+
+## Installation Instructions
+### Method 1
+Download pre-compiled executable files directly from releases, no Python environment required.
+
+### Method 2
+Install from source code
+1. **Requirements**
+   ```bash
+   Python 3.7+
+   pip install requests jieba pillow pandas
+   ```
+
+2. **Configuration**
+   - Set Baidu Translate API credentials in `Baidu_Text_transAPI.py`
+   - Configure DeepSeek API key in `deepseek_module.py`
+   - Ensure required image resources are in the `TU` directory
+   - Place lexicon data in `KU.csv`
+
+3. **Run Application**
+   ```bash
+   python main.py
+   ```
+
+## User Manual
+
+1. **Text Input**
+   - Enter text in the input box (up to 1000 characters)
+   - Select desired language from dropdown
+   - Click "Start Processing"
+
+2. **Viewing Results**
+   - Use navigation buttons to move between pages
+   - Use percentage buttons to adjust display scale
+   - Hover over text to see additional information
+   - View images associated with text
+
+3. **Language Switching**
+   - Select language from dropdown menu
+   - Text and interface will update automatically
+   - Translation is processed in real-time
+
+
+## Quick Start: Using WGA Reader
+
 Usage:
 Select your native language (top right) → Enter or paste any - language text in the input box → Click "Start parsing". Then, the text and WGAs display side - by - side in seconds.
 Query function: 
@@ -64,18 +150,18 @@ Usage suggestion:
 Beginners: Focus on text, peripherally perceiving WGAs to build associations.
 Advanced Users: Use the "X%" button to mask the lower half of the text, shifting focus to WGAs for graphic thinking training.
 
-##Contribution Guide
+## Contribution Guide
 The WGA project is crucial for human peace and development and urgently requires global collaboration. We invite enthusiasts in the following areas:
 
 ### 1. program development
- ① Optimize WGA Reader: Enhance parsing speed, accuracy, UX. \[Requirements Doc #\] \[Code Repo #\]
-② Develop WGA Platform & Input Methods (Keyboard/Touch). \[Requirements Doc #\]
+ ① Optimize WGA Reader: Enhance parsing speed, accuracy, UX. [link](doc/图母阅读器修改需求.md)
+② Develop WGA Platform & Input Methods (Keyboard/Touch). [Requirements Doc](doc/图母平台与输入法.docx)
 ③ Build Browser Extensions for web page WGA display (Next Phase).
 ④ Explore 2D layout (Discussion Stage)
 ### 2. WGA shape design 
-Design more intuitive, memorable, and recognizable shapes for the 600+ WGAs.Single WGA submissions are accepted. \[Download Existing WGA #\]
+Design more intuitive, memorable, and recognizable shapes for the 600+ WGAs.Single WGA submissions are accepted. [Download Existing WGA](src/TU(1).rar)
 ### 3. Phrase design (Need lovers from all languages and fields.)
-Create concise, easy-to-understand, unambiguous WGAs combinations for tens of thousands of words.  Submit solutions for individual words.  [Word Bank Decomposition Table #]  
+Create concise, easy-to-understand, unambiguous WGAs combinations for tens of thousands of words.  Submit solutions for individual words.  [Word Bank Decomposition Table](src/WGA-word.xlsx)  
 ### 4. Other Contributions
 *   Translation
 *   Grammar Design
@@ -86,8 +172,9 @@ Create concise, easy-to-understand, unambiguous WGAs combinations for tens of th
 We welcome your suggestions and participation!
 
 ## Contact & Feedback
-* Community Discussion: \[Community Link #\]
+* Community Discussion: [link](https://github.com/World-Graphic-Alphabet-WGA)
 * Email: wga.open@gmail.com
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file in the project root for details.
+

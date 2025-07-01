@@ -7,7 +7,7 @@ import requests
 import datetime
 from queue import Queue
 
-DEEPSEEK_URL = "https://aiyjg.lol/v1/chat/completions"
+DEEPSEEK_URL = "https://api.deepseek.com/chat/completions"
 MAX_INPUT = 2000
 CHUNK_SIZE = 400
 MAX_RETRIES = 3
@@ -17,7 +17,7 @@ MAX_RETRIES = 3
 
 class DeepseekProcessor:
     def __init__(self):
-        self.api_key = "sk-7jkN5iQiVPmISyQRa0EyV29n6wCmjTBz4eQixZaPsqxVyCfg"
+        self.api_key = "sk-a59555fddb5b4f7399c58b61d0b00a96"
         self.request_queue = Queue()
         self.annotation_rules = {
             "role": "system",
@@ -118,7 +118,7 @@ class DeepseekProcessor:
                                 self.annotation_rules,
                                 {"role": "user", "content": text}
                             ],
-                            "model": "deepseek-v3-250324",
+                            "model": "deepseek-chat",
                             "temperature": 0.01
                         },
                         timeout=60

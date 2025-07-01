@@ -11,8 +11,8 @@ import json
 from hashlib import md5
 
 # Set your own appid/appkey.
-appid = '20240804002115923'
-appkey = 'olDQZ7KDy_AREMnxNAdE'
+appid = '20220622001254827'
+appkey = 'MAYWJUWNQS3NAngfW80a'
 
 # For list of language codes, please refer to `https://api.fanyi.baidu.com/doc/21`
 def createRequest(query,from_lang,to_lang,):

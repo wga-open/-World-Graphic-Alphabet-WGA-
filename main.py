@@ -1,7 +1,6 @@
 ﻿#TM.py
 #contact me: familyerpro@gmail.com
 import sys
-import tkinter as tk
 from tkinter import ttk, font, messagebox
 import logging
 from ui_manager import UIManager
@@ -16,7 +15,7 @@ logging.basicConfig(
     level=logging.DEBUG,  # 调整日志级别为 INFO
     format='[%(asctime)s] [%(filename)s:%(lineno)d] [%(levelname)s] %(message)s',
     handlers=[
-        logging.FileHandler('tm_operation.log'),
+        logging.FileHandler('logs/tm_operation.log'),
         logging.StreamHandler()
     ]
 )
