@@ -7,7 +7,7 @@ WGA is a graphic symbol system designed globally. It enables cross - language co
 WGA has 600+. Each corresponds to a basic meaning; other meanings are expressed through combinations of multiple WGAs. For example:
 *  Platform+Sleep → Bed   (core word on the left)
 *  Grass+close+bug → Flytrap  (Even for region-specific plant, global users instantly grasp its category (grass) and key trait (traps bugs)).
-![1.png](./src/Example of WGA Group Words.png)
+![1.png](./src/exp.png)
 
 
 The WGA reader intelligently matches WGAs above the text, allowing annotations to be viewed via mouse. Without prior learning, it can achieve bidirectional auxiliary understanding of text and WGAs. Applicable to:
