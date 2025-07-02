@@ -1,7 +1,7 @@
 # 世界图形字母（World Glyph Alphabet-WGA，简称图母）
 图母是一种由多国设计的图形符号，无需预先学习，通过图形组合实现跨语言交流和辅助阅读外文。
 
-[![英文文文档](https://img.shields.io/badge/Document-English-important)](README.md) [![Project Status: Active](https://img.shields.io/badge/状态-活跃-brightgreen.svg)]() [![许可证: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs 欢迎](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+[![英文文文档](https://img.shields.io/badge/Document-English-important)](README.md) [![Project Status: Active](https://img.shields.io/badge/状态-活跃-brightgreen.svg)]() [![license: MIT](https://img.shields.io/badge/许可证-MIT-blue.svg)](./LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-欢迎-brightgreen.svg)]()
 ## 项目简介
 图母共600+，分别对应一个基础词义，其他词义由多个图母组合来表达，例如：
 * 台+睡→床  （左侧为核心词）
