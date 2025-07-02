@@ -37,8 +37,8 @@ With only 600+, the shape can be simplified.
 ① Easy to identify: small shape, faster reading
 ![4.png](./src/Comparison%20between%20the%20original%20image%20and%20WGA.png)
 ② Associative memory: Thanks to its simple shape, WGAs of the same type are more similar.
-![5.png](./src/图母关联-父母(英).png)
-![6.png](./src/图母关联-元素表(英).png)
+![5.png](./src/图母关联之父母(英).png)
+![6.png](./src/图母关联之元素表(英).png)
 
 4. Simple & Fast Input
 Input via categorized WGA search. Operable even by children. Average keystrokes < 20% of typing English.
