@@ -15,7 +15,7 @@ The WGA reader intelligently matches WGAs above the text, allowing annotations t
 * Reading ancient texts and technical terms
 * Children's literacy
 * Communication for the hearing impaired
-(src/text%20and%20WGAs%20display%20side%20-%20by%20-%20side.png)
+![2.png](./src/text%20and%20WGAs%20display%20side%20-%20by%20-%20side.png)
 
 ## Core Advantage 1: Flexibility and Freedom
 Graphics offer immense variability, ensuring high flexibility
@@ -37,8 +37,8 @@ With only 600+, the shape can be simplified.
 ① Easy to identify: small shape, faster reading
 ![4.png](./src/Comparison%20between%20the%20original%20image%20and%20WGA.png)
 ② Associative memory: Thanks to its simple shape, WGAs of the same type are more similar.
-![5.png](./src/WGA%20Relevance%20Example 1.png)
-![6.png](./src/WGA%20Relevance%20Example 2.png)
+![5.png](./src/WGA%20Relevance%20Example%201.png)
+![6.png](./src/WGA%20Relevance%20Example%202.png)
 
 4. Simple & Fast Input
 Input via categorized WGA search. Operable even by children. Average keystrokes < 20% of typing English.
