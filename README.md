@@ -1,7 +1,7 @@
 # World Glyph Alphabet (WGA)
 WGA is a graphic symbol system designed globally. It enables cross - language communication and assists foreign - language reading without prior learning.
 
-[![中文文档](https://img.shields.io/badge/文档-中文版-important)](README_zh.md) [![Project Status: Active](https://img.shields.io/badge/status-active-brightgreen.svg)]() [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+[![中文文档](https://img.shields.io/badge/文档-中文版-important)](README_zh.md) [![Project Status: Active](https://img.shields.io/badge/status-active-brightgreen.svg)]() [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/World-Graphic-Alphabet-WGA)
 
 ## Project Introduction
 WGA has 600+. Each corresponds to a basic meaning; other meanings are expressed through combinations of multiple WGAs. For example:
