@@ -57,6 +57,7 @@ Among the 117 most populous regions, the top six growth rates of GDP per capita 
 Here's the English translation of your document in Markdown format:
 
 
+
 ## Technical Architecture
 
 ### Core Components
@@ -99,7 +100,7 @@ Here's the English translation of your document in Markdown format:
 
 ## Installation Instructions
 ### Method 1
-Download pre-compiled executable files directly from releases, no Python environment required.
+Download pre-compiled executable files directly from releases, no Python environment required. [link](https://github.com/wga-open/-World-Graphic-Alphabet-WGA-/releases/download/v1.0.0/MyApp-1.0-win64.msi)
 
 ### Method 2
 Install from source code
