@@ -99,7 +99,7 @@ WGA不像语言的发音那样会互相限制，因此任何人的创意（形�
 
 ## 安装说明
 ### 方式一
-直接通过release下载预编译好的可执行文件，无需安装Python环境。
+直接通过release下载预编译好的可执行文件，无需安装Python环境。 [link](https://github.com/wga-open/-World-Graphic-Alphabet-WGA-/releases/download/v1.0.0/MyApp-1.0-win64.msi)
 
 
 ### 方式二
